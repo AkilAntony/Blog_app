@@ -1,11 +1,11 @@
-import React from 'react'
+ import React from 'react'
 import Image from 'next/image'
 import { IoSearchOutline } from "react-icons/io5";
 
 function Navbar() {
   return (
     <div className='flex bg-white items-center justify-between 
-             shadow-sm p-2 border border-b-2'>
+             shadow-sm p-2 border border-b-2 w-screen'>
         <div className="logo-searchBarContainer flex items-center ">
             <div className='logoContainer'>
                 <Image
